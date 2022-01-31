@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+@import './variables';
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	font-family: 'Kumbh Sans', sans-serif;
+	font-size: 18px;
+	background-image: url('../images/bg-pattern-top.svg'), url('../images/bg-pattern-bottom.svg');
+	background-position: right 45vw bottom 45vh, 45vw 45vh;
+	background-repeat: no-repeat;
+	background-color: $darkCyan;
+	// min-height: 95vh;
+}
